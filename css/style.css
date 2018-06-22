@@ -1,0 +1,66 @@
+*{
+    padding:0;
+    margin: 0;
+}
+ul {
+    list-style: none;/* удаление ввсех маркеров (точек) в документе  */
+}
+/* класс для  */
+.wrapper {
+    max-width: 1366px;
+    margin: 0 auto;
+    padding: 50px 100px;
+}
+.header {
+
+    padding-bottom: 50px; /* нижний отступ  */
+    display:flex;/*   */
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #acacac;/* толщина , сплошная, цвет  */
+}
+.logo h1 {
+    font-family: Arial, sans-serif;/*шрифт без засечек */
+    font-size: 36px;
+    font-weight: bold;
+    padding: 20px;
+}
+.logo span {/* блочный элемент ( занимает всю строку*/
+    display: block;/* блочный элемент ( занимает всю строку*/
+    font-weight:400;
+}
+.main{
+    margin-top: 80px;
+}
+.active{
+    background-color: #b7b7b7;
+}
+.menu li {
+    display: inline-block;
+    margin-top: 59px;
+    margin-right: 39px ;
+}
+.menu a {
+    color: #000;
+    text-decoration: none;
+    font-size: 18px;
+}
+.photo{
+    margin:90px;
+}
+.info {
+    font-size: 30px;
+}
+.info p{
+    font-weight:bold;
+}
+.info span{
+    font-weight: normal;
+}
+
+
+.footer{
+    font-size: 30px;
+    text-align: center;
+    margin: 0;
+}
